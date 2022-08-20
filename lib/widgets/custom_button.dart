@@ -12,7 +12,7 @@ class CustomButton extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(18.0),
       child: ElevatedButton(
-        onPressed: () {},
+        onPressed: onPressed,
         style: ElevatedButton.styleFrom(
           primary: buttonColor,
           minimumSize: const Size(
